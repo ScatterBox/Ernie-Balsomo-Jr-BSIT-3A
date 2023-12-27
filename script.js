@@ -39,3 +39,11 @@ function editVisitor(visitorID) {
     // Redirect to the edit page for the visitor with the given ID.
     window.location.href = 'editVisitor.php?id=' + visitorID;
 }
+
+function deleteVisitor(visitorID) {
+    // Confirm the deletion with the user.
+    if (confirm('Do you want to delete the visitor with ID ' + visitorID + '?')) {
+        // If the user confirms, redirect to the delete page for the visitor with the given ID.
+        window.location.href = 'deleteVisitor.php?id=' + visitorID;
+    }
+}
