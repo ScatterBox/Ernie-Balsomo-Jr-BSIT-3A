@@ -1,0 +1,71 @@
+.title {
+    width: 50%; /* or any other value */
+    margin: 0 auto;
+}
+
+#timeInButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.log-e-book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-purple-box {
+    background-color: #f3e5f5; 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.round-edge {
+    border-radius: 25px; /* Adjust this value to make the edges rounder or sharper */
+}
+
+.white-background {
+    background-color: #ffffff; 
+}
+
+.purple-box {
+    background-color: #f3e5f5; 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#visitorTable {
+    background-color: #ffffff; 
+}
+.row {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navbar {
+    margin-bottom: 60px; 
+}
+
+.recently-added {
+    width: 100%; /* Adjust as needed */
+}
+
+.recently-added table {
+    width: 100%; /* Adjust as needed */
+    table-layout: fixed;
+}
+
+.recently-added table td,
+.recently-added table th {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
